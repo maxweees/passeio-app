@@ -1,59 +1,32 @@
-# PasseioApp
+# 📍 Passeio App - Lista de Lugares Favoritos
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.1.
+O **Passeio App** é uma aplicação web interativa desenvolvida em **Angular** que permite aos usuários explorar, organizar e compartilhar seus lugares incríveis e favoritos, tudo em um só lugar. A aplicação conta com autenticação segura integrada diretamente com o **Google Auth** utilizando o protocolo OAuth2/OIDC.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Funcionalidades
 
-```bash
-ng serve
-```
+- **Autenticação com Google:** Login rápido, seguro e simplificado através da API de autenticação do Google.
+- **Gerenciamento de Perfil:** Identificação em tempo real do usuário logado, exibindo saudações personalizadas com os dados obtidos da conta Google (`profile.name`).
+- **Navegação Protegida:** Redirecionamento dinâmico para a galeria de lugares favoritos assim que o estado de login for validado.
+- **Interface Moderna e Responsiva:** Design elegante construído utilizando classes utilitárias do **Tailwind CSS**, contando com gradientes modernos, efeitos hover refinados e total adaptabilidade a dispositivos móveis.
+- **Arquitetura Reativa com Signals:** Utilização de conceitos modernos do Angular, como **Signals** (`signal<any>`) para gerenciamento reativo de estado e injeção de dependência via função `inject()`, garantindo alta performance e eliminação de loops de renderização desnecessários.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🛠️ Tecnologias Utilizadas
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **[Angular](https://angular.dev/)** - Framework do ecossistema SPA para construção da interface e lógica de componentes.
+- **[Tailwind CSS](https://tailwindcss.com/)** - Framework utilitário de CSS focado em design ágil e customizável.
+- **[angular-oauth2-oidc](https://github.com/manfredsteyer/angular-oauth2-oidc)** - Biblioteca certificada para suporte a OpenID Connect (OIDC) e OAuth 2.0 no Angular.
+- **TypeScript** - Superconjunto JavaScript adicionando tipagem estática opcional e recursos avançados à aplicação.
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📦 Pré-requisitos
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Antes de começar, certifique-se de ter instalado em seu ambiente:
+- [Node.js](https://nodejs.org/) (versão LTS recomendada)
+- [Angular CLI](https://angular.dev/cli) instalado globalmente:
+  ```bash
+  npm install -g @angular/cli
