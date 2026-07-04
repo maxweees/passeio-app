@@ -1,0 +1,120 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Shoppings",
+      "descricao": "Lugares para fazer compras e passear"
+    },
+    {
+      "id": "1ed9",
+      "nome": "Praias",
+      "descricao": "Lugares para tomar banho com a familia"
+    },
+    {
+      "nome": "Restaurantes",
+      "descricao": "Comer bem é parte fundamental de qualquer roteiro. Nesta categoria, reunimos os melhores restaurantes para você aproveitar cada refeição do dia. Seja para recarregar as energias com um almoço completo ou para relaxar e curtir a noite em um jantar inesquecível, aqui você encontra o ambiente e o sabor perfeitos para cada momento.",
+      "id": "DjW9VVvsEko"
+    },
+    {
+      "nome": "Parques",
+      "descricao": "Desconectar da rotina urbana e respirar ar puro faz bem para a mente e o corpo. Nesta categoria, reunimos os melhores parques para você aproveitar os dias de sol. Seja para se exercitar nas primeiras horas da manhã ou para curtir um pôr do sol inesquecível",
+      "id": "9cYApGG_lZc"
+    },
+    {
+      "nome": "Bares",
+      "descricao": "Lugares para tomar umas!",
+      "id": "9C2GJaedPjg"
+    }
+  ],
+  "lugares": [
+    {
+      "nome": "Praia do Espelho",
+      "categoria": "Praias",
+      "localizacao": "Bahia",
+      "urlFoto": "https://ateondeeupuderir.com/wp-content/uploads/2025/02/praia-do-espelho-bahia-6.jpg",
+      "avaliacao": "4",
+      "id": "G0DMeZexKv0"
+    },
+    {
+      "nome": "Ibirapuera",
+      "categoria": "Parques",
+      "localizacao": "Sao Paulo",
+      "urlFoto": "https://www.saopauloinfoco.com.br/wp-content/uploads/2013/03/Parque-do-Ibirapuera_Cidade-de-S%C3%A3o-Paulo.jpg",
+      "avaliacao": "4",
+      "id": "5Fh6srE0lxA"
+    },
+    {
+      "nome": "Bar do Zé",
+      "categoria": "Bares",
+      "localizacao": "Diadema",
+      "urlFoto": "https://img.restaurantguru.com/w550/h367/rf1d-design-Bar-Do-Ze-2022-10-19.jpg",
+      "avaliacao": "5",
+      "id": "kwkP6FCz4_0"
+    },
+    {
+      "nome": "Praia Grande",
+      "categoria": "Praias",
+      "localizacao": "Sao Paulo",
+      "urlFoto": "https://upload.wikimedia.org/wikipedia/commons/7/75/Praia_Grande_Ubatuba_04.jpg",
+      "avaliacao": "3",
+      "id": "5TPfTwD"
+    },
+    {
+      "nome": "Ilha Bela",
+      "categoria": "Praias",
+      "localizacao": "Sao Paulo",
+      "urlFoto": "https://i0.wp.com/alemaobeachilhabela.com.br/wp-content/uploads/2023/01/g.jpeg?fit=1024%2C682&ssl=1",
+      "avaliacao": "4",
+      "id": "yeUYyNH"
+    },
+    {
+      "nome": "Kumbuca",
+      "categoria": "Bares",
+      "localizacao": "Sao Paulo",
+      "urlFoto": "https://baressp.com.br/bares/fotos2/kombucafoto.jpg",
+      "avaliacao": "2",
+      "id": "o2IwM6V"
+    },
+    {
+      "nome": "Sabor e Ar",
+      "categoria": "Bares",
+      "localizacao": "Londrina",
+      "urlFoto": "https://sebraepr.com.br/experienciasturisticas/wp-content/uploads/Sabor-e-Ar.jpg",
+      "avaliacao": "4",
+      "id": "WHCxxqU"
+    },
+    {
+      "nome": "Interlagos",
+      "categoria": "Shoppings",
+      "localizacao": "Sao Paulo",
+      "urlFoto": "https://www.guiadasemana.com.br/contentFiles/system/pictures/2011/5/693/original/p-shopinterlagos_r.jpg",
+      "avaliacao": "2",
+      "id": "mFc1q8t"
+    },
+    {
+      "nome": "Parque da Monica",
+      "categoria": "Parques",
+      "localizacao": "Sao Paulo",
+      "urlFoto": "https://parquedamonica.com.br/wp-content/uploads/2023/05/sobre-o-parque-destaque-1024x705.webp",
+      "avaliacao": "5",
+      "id": "QtXHtwU"
+    },
+    {
+      "nome": "Parque Vila Lobos",
+      "categoria": "Parques",
+      "localizacao": "Sao Paulo",
+      "urlFoto": "https://metropolitanosp.com.br/uploads/images/2023/09/parque-candido-portinari-um-parque-bem-localizado-na-zona-oeste-e-repleto-de-atracoes-4afab.jpg",
+      "avaliacao": "3",
+      "id": "HUwCmEI"
+    },
+    {
+      "nome": "Shopping SP Market",
+      "categoria": "Shoppings",
+      "localizacao": "Sao Paulo",
+      "urlFoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Lzzhi_Qhc45dXUgA-lStSbkWUBackkZaqN6rAXq7t-9VSa321ul7OKs&s=10",
+      "avaliacao": "3",
+      "id": "YVvUu4s"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
