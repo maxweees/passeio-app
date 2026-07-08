@@ -1,0 +1,40 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Shoppings",
+      "descricao": "Lugares para fazer compras e passear"
+    },
+    {
+      "id": "1ed9",
+      "nome": "Praias",
+      "descricao": "Lugares para tomar banho com a familia"
+    },
+    {
+      "nome": "Restaurantes",
+      "descricao": "Comer bem é parte fundamental de qualquer roteiro. Nesta categoria, reunimos os melhores restaurantes para você aproveitar cada refeição do dia. Seja para recarregar as energias com um almoço completo ou para relaxar e curtir a noite em um jantar inesquecível, aqui você encontra o ambiente e o sabor perfeitos para cada momento.",
+      "id": "DjW9VVvsEko"
+    },
+    {
+      "nome": "Parques",
+      "descricao": "Desconectar da rotina urbana e respirar ar puro faz bem para a mente e o corpo. Nesta categoria, reunimos os melhores parques para você aproveitar os dias de sol. Seja para se exercitar nas primeiras horas da manhã ou para curtir um pôr do sol inesquecível",
+      "id": "9cYApGG_lZc"
+    },
+    {
+      "nome": "Bares",
+      "descricao": "Lugares para tomar umas!",
+      "id": "9C2GJaedPjg"
+    }
+  ],
+  "lugares": [
+    {
+      "nome": "Praia do Espelho",
+      "categoria": "Praias",
+      "localizacao": "Bahia",
+      "urlFoto": "https://ateondeeupuderir.com/wp-content/uploads/2025/02/praia-do-espelho-bahia-6.jpg",
+      "avaliacao": "4",
+      "id": "G0DMeZexKv0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

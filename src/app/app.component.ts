@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment } from '../environments/environment.development';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'passeio-app';
+
+  constructor(){
+    console.log('Ambiente atual:', );
+    console.log('URL da API que o Angular está lendo:', environment.apiUrl);
+  }
+  
 }
